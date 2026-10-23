@@ -1,0 +1,21 @@
+
+[
+    {
+        "name": "Menú de Pediatría",
+        "description": "Sistema de gestión de pacientes pediátricos, con opciones para registrar y consultar información.",
+        "repoUrl": "https://github.com/Halinxx14/Menu-Pediatria",
+        "readmeUrl": "https://github.com/Halinxx14/Menu-Pediatria#readme"
+    },
+    {
+        "name": "Banco Internacional de Hyrule",
+        "description": "Proyecto de programación enfocado en la simulación de operaciones de un sistema bancario.",
+        "repoUrl": "https://github.com/Halinxx14/Banco-Internacional-de-Hyrule",
+        "readmeUrl": "https://github.com/Halinxx14/Banco-Internacional-de-Hyrule#readme"
+    },
+    {
+        "name": "Gestión de Inventario en Sucursales",
+        "description": "Sistema para organizar y administrar productos e inventarios mediante diferentes opciones de gestión.",
+        "repoUrl": "https://github.com/Halinxx14/Gestion-de-Inventario-en-Sucursales",
+        "readmeUrl": "https://github.com/Halinxx14/Gestion-de-Inventario-en-Sucursales#readme"
+    }
+]

@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Halina Magaña Fierro | Portafolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- PORTADA / INICIO -->
+    
+<header id="inicio" class="portada">
+    <div class="portada-contenido">
+
+        <div class="portada-texto">
+            <p class="etiqueta">PORTAFOLIO PERSONAL</p>
+
+            <h1>¡Hola! Soy Geisel Halina Magaña Fierro</h1>
+
+            <h2>Desarrolladora de Software en formación</h2>
+
+            <p class="texto-portada">
+                Bienvenido a mi espacio. Aquí encontrarás mis proyectos,
+                habilidades y mi camino en el mundo de la programación.
+            </p>
+
+            <div class="botones-portada">
+                <a href="https://github.com/Halinxx14"
+                   target="_blank"
+                   class="boton boton-principal">
+                    Mi perfil de GitHub
+                </a>
+
+                <a href="#projects" class="boton boton-secundario">
+                    Ver mis proyectos
+                </a>
+            </div>
+        </div>
+
+        <div class="terminal-hacker">
+            <div class="terminal-superior">
+                <span class="punto punto-rojo"></span>
+                <span class="punto punto-amarillo"></span>
+                <span class="punto punto-verde"></span>
+                <span class="terminal-titulo">halina@portfolio:~</span>
+            </div>
+
+            <div class="terminal-contenido">
+                <p class="terminal-linea">
+                    <span class="terminal-prompt">halina@dev:~$</span>
+                    <span id="codigo-hacker"></span>
+                    <span class="cursor-hacker">▋</span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+
+    <!-- SOBRE MÍ -->
+    <section id="about" class="seccion">
+
+        <p class="etiqueta">01 / SOBRE MÍ</p>
+
+        <h2>Acerca de mí</h2>
+
+        <p>
+            Soy estudiante de la carrera de Desarrollo de Software
+            en el plantel CETI Tonalá, actualmente cursando quinto
+            semestre. Siempre he tenido mucho interés en la
+            programación, la creación de aplicaciones y la robótica.
+
+            Desde pequeña he tenido estas pasiones, participando
+            en concursos de robótica en distintos estados de la
+            República Mexicana, como Toluca, Monterrey y Querétaro.
+
+            Me gusta aprender nuevas formas de conectar la electrónica
+            con el software para facilitar la interacción del usuario
+            con los sistemas, así como desarrollar proyectos que
+            permitan resolver problemas actuales mediante la tecnología.
+        </p>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="seccion habilidades">
+
+        <p class="etiqueta">02 / TECNOLOGÍAS</p>
+
+        <h2>Mis habilidades</h2>
+
+        <p class="descripcion-seccion">
+            Lenguajes y herramientas que utilizo para desarrollar
+            mi lógica de programación, crear algoritmos y construir
+            proyectos de software.
+        </p>
+
+        <div class="contenedor-habilidades">
+
+            <!-- C++ -->
+            <article class="tarjeta-habilidad">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                    alt="Logo de C++">
+
+                <h3>C++</h3>
+
+                <p>
+                    Programación estructurada y lógica computacional.
+                </p>
+            </article>
+
+
+            <!-- PYTHON -->
+            <article class="tarjeta-habilidad">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Logo de Python">
+
+                <h3>Python</h3>
+
+                <p>
+                    Desarrollo de programas e interfaces gráficas.
+                </p>
+            </article>
+
+
+            <!-- PSEINT -->
+            <article class="tarjeta-habilidad">
+                <img
+                    src="img/pseint.png"
+                    alt="Logo de PSeInt">
+
+                <h3>PSeInt</h3>
+
+                <p>
+                    Diseño de algoritmos y pseudocódigo.
+                </p>
+            </article>
+
+
+            <!-- HTML -->
+            <article class="tarjeta-habilidad">
+                <img
+                    src="img/html.webp"
+                    alt="Logo de HTML">
+
+                <h3>HTML</h3>
+
+                <p>
+                    Estructurar información de páginas web.
+                </p>
+            </article>
+
+
+            <!-- SCRATCH -->
+            <article class="tarjeta-habilidad">
+                <img
+                    src="https://cdn.simpleicons.org/scratch/F9A03C"
+                    alt="Logo de Scratch">
+
+                <h3>Scratch</h3>
+
+                <p>
+                    Creación de programas mediante bloques visuales.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROYECTOS -->
+    <section id="projects" class="seccion proyectos">
+
+        <p class="etiqueta">03 / PORTAFOLIO</p>
+
+        <h2>Mis proyectos</h2>
+
+        <p class="descripcion-seccion">
+            Explora algunos de mis trabajos y proyectos de programación.
+        </p>
+
+        <div id="projects-container">
+            <!-- Los proyectos se cargarán desde projects.json -->
+        </div>
+
+        <a
+            href="https://github.com/Halinxx14"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="boton boton-principal">
+            Explorar mi GitHub ↗
+        </a>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contact" class="seccion contacto">
+
+        <p class="etiqueta">04 / CONTACTO</p>
+
+        <h2>Conectemos</h2>
+
+        <p>
+            ¿Te interesa conocer mis proyectos o explorar mi trabajo?
+            Visita mi perfil de GitHub.
+        </p>
+
+        <a
+            href="https://github.com/Halinxx14"
+            target="_blank"
+            rel="noopener noreferrer">
+            github.com/Halinxx14 ↗
+        </a>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>
+            © 2026 Halina Magaña Fierro.
+            Portafolio personal de desarrollo de software.
+        </p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
