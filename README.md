@@ -2,7 +2,7 @@
 
 ## Portafolio web personal enfocado en presentar mi perfil como desarrolladora de software en formación, mis habilidades y mis proyectos de programación.
 
-<img width="818" height="400" alt="image" src="https://github.com/user-attachments/assets/2627ed1b-1139-4ad4-bf4f-f97e33f01929" />
+<img width="975" height="557" alt="image" src="https://github.com/user-attachments/assets/2627ed1b-1139-4ad4-bf4f-f97e33f01929" />
 
 ### ✨ Características
 
